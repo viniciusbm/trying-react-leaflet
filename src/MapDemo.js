@@ -23,7 +23,7 @@ export const MapDemo = ({ centre, items }) => {
           onClick={() => {}}
           icon={L.icon(item.icon)}
         >
-          <Popup>item.label</Popup>
+          <Popup>{item.label}</Popup>
         </Marker>
       ))}
     </MapContainer>
